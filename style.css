@@ -669,6 +669,7 @@ input[type="radio"] {
   padding: 220px 0 0 20px;
 }
 .scate-1{padding: 0 0 0 20px;}
+.scate, .scate-1 h1 {font-size: 25px; }
 .btn7 {
   border: none;
   color: black;
@@ -691,11 +692,11 @@ input[type="radio"] {
 }
 .card-link-1{color: inherit;}
 .carts-container-1{
-  padding-bottom: 20px; width: 340px;
+  padding-bottom: 20px; width: 360px;
   background-color: white; border-radius: 20px;
 }
 .scating-1 img{
-  margin-left: 90px; transition: transform 0.4s ease;
+  margin-left: 130px; padding-top: 10px; transition: transform 0.4s ease;
 }
 .carts-container-1:hover .scating-1 img {
   transform: scale(1.05);
@@ -882,7 +883,7 @@ input[type="radio"] {
     display: none;
   }
   .scate{
-    padding: 252px 0 0 20px;
+    padding: 290px 0 0 20px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -998,7 +999,7 @@ input[type="radio"] {
   .scating img{
     width: 280px; padding-top: 110px;
   }
-  .scate{ padding-top: 228px;}
+  .scate{ padding-top: 267px;}
   .scate-wraper {
     gap: 0px;
   }
@@ -1204,42 +1205,27 @@ input[type="radio"] {
     width: 230px; padding-top: 140px;
   }
   .carts-container{
-    width: 430px;
+    width: 389px;
   }
   .scating-1 img {
-    width: 145px;
-    margin-left: 80px; padding: 0;
+    width: 145px; margin-left: 91px; padding:30px 0 0 0;
   }
-  .carts-container-1 {width: 274px;}
+  .carts-container-1 {width: 243px;}
   .scate h1 {
       font-size: 18px;
   }
   .scate p{
     font-size: 14px;
   }
-  .scate{ padding-top: 205px;}
+  .scate{ padding-top: 181px;}
   .scate-1{padding: 0 0 0 20px;}
-  .scate-1 p{
-    font-size: 14px;
-  }
-  .scate-1 h1 {
-    font-size: 18px;
-  }
-  .global-scating {
-    padding: 60px 20px 0 10px;
-  }
-  .casual h1 {
-    font-size: 38px;
-  }
-  .foot-loot h4 {
-      font-size: 16px;
-  }
-  .foot-wrap {
-    padding: 0 22px 0 10px;
-  }
-  .foot-cook a, .foot-cook-1 a, .foot-cook-2  a{
-    font-size: 14px;
-  }
+  .scate-1 p{font-size: 14px;}
+  .scate, .scate-1 h1{font-size: 15px;}
+  .global-scating {padding: 60px 20px 0 10px;}
+  .casual h1 {font-size: 38px;}
+  .foot-loot h4 {font-size: 16px;}
+  .foot-wrap {padding: 0 22px 0 10px;}
+  .foot-cook a, .foot-cook-1 a, .foot-cook-2  a{font-size: 14px;}
   .foot-cook li, .foot-cook-1 li, .foot-cook-2 li{
     margin-bottom: 5px;
   }
