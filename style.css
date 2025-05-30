@@ -666,10 +666,12 @@ input[type="radio"] {
 }
 .scate-wraper-1{ flex-direction: column-reverse;}
 .scate{
-  padding: 220px 0 0 20px;
+  padding: 263px 0 0 20px;
 }
 .scate-1{padding: 0 0 0 20px;}
-.scate, .scate-1 h1 {font-size: 25px; }
+.scate h1{ font-size: 25px;}
+.scate-1 h1 {font-size: 25px;}
+.scate p{font-size: 16px;}
 .btn7 {
   border: none;
   color: black;
@@ -703,7 +705,7 @@ input[type="radio"] {
 }
 .casual-container{
   background: url("Multimedia/callout-rebrand.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
 }
@@ -879,12 +881,10 @@ input[type="radio"] {
 }
 /* This is the End of Foot Sectioning */
 @media screen and (max-width:1440px) {
-  .kofi{
-    display: none;
-  }
-  .scate{
-    padding: 290px 0 0 20px;
-  }
+  .kofi{display: none;}
+  .scate{padding: 291px 0 0 20px;}
+  .scate h1{ font-size: 25px;}
+  .scate p{font-size: 16px;}
 }
 @media screen and (max-width: 1024px) {
   .btn9{
@@ -1303,11 +1303,10 @@ input[type="radio"] {
   }
   .scating-1 img{
     width: 200px;
-    margin-left: 100px; padding-top: 0;
+    margin-left: 100px; padding-top: 30px;
   }
   .scate-1 h1{
-    padding: 0 0 0 40px;
-    width: 100%;
+    padding: 0 0 0 20px; width: 100%; font-size: 25px;
   }
   .jency h1{
     font-size: 28px;
