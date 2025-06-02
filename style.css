@@ -1454,8 +1454,10 @@ input[type="radio"] {
 }
 @media screen and (max-width:376px) {
   .nancy, .power, .power-2 img{
-    height: 300px;
+    height: 280px;
   }
+  
+
   .jency{
     padding: 22px 38px;
   }
