@@ -3,22 +3,19 @@
   margin: 0%;
   box-sizing: border-box;
 }
+/* This is the Start of Top trick Sectioning */
 .kind {
   background-color: #d7d8e3;
-  width: 120px;
-  height: 45px;
+  width: 120px; height: 45px;
 }
 .business-wraper {
   background-color: #f8f6fe;
-  width: 200px;
-  height: 45px;
+  width: 200px; height: 45px;
   padding: 11px 0 0 20px;
 }
 .business-wraper a{
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+  color: black; text-decoration: none;
+  font-size: 16px; font-weight: 600;
 }
 .ref {
   background-color: #d7d8e3;
@@ -31,8 +28,7 @@
 .top-trick-wraper {
   background-color: #b6bbcf;
   height: 45px; width: 150px;
-  padding-left: 15px;
-  cursor: pointer;
+  padding-left: 15px; cursor: pointer;
 }
 .top-trick-wraper p{
   padding-top: 15px;
@@ -47,10 +43,8 @@
 .top-trick-hover-content {
   right: 0%;
   background-color: #3ac6f5;
-  gap: 20px;
-  padding: 12px 12px;
-  border-radius: 4px;
-  white-space: nowrap;
+  gap: 20px; padding: 12px 12px;
+  border-radius: 4px; white-space: nowrap;
   transform: skewX(-10deg) scale(0.95);
   opacity: 0;
   transition: opacity 0.5s ease-in-out 0s;
@@ -80,6 +74,7 @@
   background-color: #d7d8e3;
   height: 45px; width: 115px;
 }
+/* This is the End of Top trick Sectioning */
 /* This is the start of Navbar Sectioning */
 .navbar{
   background-color: #020a18;
@@ -109,22 +104,14 @@
   display: block;
 }
 .hover-card h6 {
-  font-weight: bold;
-  border-bottom: 2px solid #006CFF;
-  margin-left: 25px;
-  padding: 10px 0 10px 0 ;
-  display: inline-block;
-  
+  font-weight: bold; border-bottom: 2px solid #006CFF;
+  margin-left: 25px; padding: 10px 0 10px 0 ; display: inline-block;
 }
 .hover-card a {
-  position: relative;
-  display: flex;
+  position: relative; display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 5px 0;
-  color: #333;
-  text-decoration: none;
-  overflow: hidden;
+  gap: 8px; padding: 5px 0;
+  color: #333; text-decoration: none;overflow: hidden;
 }
 .hover-card a i{
   opacity: 0;
@@ -158,12 +145,9 @@
 .btn9{
   background-color: ghostwhite;
   padding: 10px 30px;
-  border: none;
-  color: black;
-  border-radius: 25px; 
-  font-weight: 700; 
-  transition: all 1000ms;
-  font-size: 17px;
+  border: none; color: black;
+  border-radius: 25px; font-weight: 700; 
+  transition: all 1000ms; font-size: 17px;
 }
 .btn9:hover{
   color: black;
@@ -172,14 +156,9 @@
 .btn9::before {
   content: "";
   position: absolute;
-  left: -50px;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: lightskyblue;
-  transform: skewX(30deg);
-  z-index: -1;
-  transition: width 700ms;
+  left: -50px; top: 0; width: 0; height: 100%;
+  background-color: lightskyblue; transform: skewX(30deg);
+  z-index: -1; transition: width 700ms;
 }
 .btn9:hover::before {
   width: 250%;
@@ -187,26 +166,22 @@
 /* This is the End of Navbar Sectioning */
 /* This is the start of Header-page sectioning */
 .built{
-    background: url("Multimedia/bolt-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background: url("Multimedia/bolt-bg.png");
+  background-size: cover; background-repeat: no-repeat;
+  height: 100vh;
 }
 .banding{
   padding: 150px 150px;
 }
 .built-h1{
-  font-size: 70px;
-  font-weight: 800;
+  font-size: 70px; font-weight: 800;
   color: royalblue;
   line-height: 80px;
 }
 .built-p{
-    color: dimgray;
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 15px;
-    line-height: 25px;
+  color: dimgray;
+  font-size: 20px; font-weight: 500;
+  padding-top: 15px; line-height: 25px;
 }
 .titi{
   background-color: #020a18;
@@ -429,15 +404,10 @@ input[type="radio"] {
 .btn3::before {
   content: "";
   position: absolute;
-  left: -50px;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: #020a18;
-  border: none;
-  transform: skewX(30deg);
-  z-index: -1;
-  transition: width 800ms;
+  left: -50px; top: 0;
+  width: 0; height: 100%;
+  background-color: #020a18; border: none;
+  transform: skewX(30deg); z-index: -1; transition: width 800ms;
 }
 .btn3:hover::before {
   width: 250%;
@@ -471,9 +441,7 @@ input[type="radio"] {
 }
 .print-3 p{
   color: #d6d6e1;
-  padding-top: 10px;
-  font-size: 16px;
-  line-height: 21px;
+  padding-top: 10px; font-size: 16px; line-height: 21px;
 }
 .print-4 h1{
   font-size: 40px;
@@ -557,12 +525,8 @@ input[type="radio"] {
 .rev-banding{
   justify-content: space-between;
 }
-.you-tube-container{
-  justify-content: space-between;
-}
-.you-tube-wraper{
-  padding-left: 55px;
-}
+.you-tube-container{justify-content: space-between;}
+.you-tube-wraper{padding-left: 55px;}
 .you-tube-link{
   padding-top: 15px;
   gap: 12px;
@@ -880,6 +844,7 @@ input[type="radio"] {
   color: red;
 }
 /* This is the End of Foot Sectioning */
+
 @media screen and (max-width:1440px) {
   .kofi{display: none;}
   .scate{padding: 291px 0 0 20px;}
@@ -972,8 +937,7 @@ input[type="radio"] {
     padding-left: 16px;
     font-size: 16px;
     line-height: 22px;
-    height: 220px;
-    width: 443px;
+    height: 220px; width: 443px;
   }
   .love-lead img {
     width: 260px;
@@ -984,12 +948,8 @@ input[type="radio"] {
   .power-4 img{
       height: 365px;
   }
-  .print-4 h1{
-    font-size: 30px;
-  }
-  .print-4 p{
-    font-size: 18px;
-  }
+  .print-4 h1{font-size: 30px;}
+  .print-4 p{font-size: 18px;}
   .benefits-container {
     gap: 40px; padding: 0 110px 0 130px;
   }
@@ -1476,24 +1436,13 @@ input[type="radio"] {
   }
 }
 @media screen and (max-width:376px) {
-  .nancy img {
+  .nancy, .power, .power-2 img{
     height: 300px;
   }
   .jency{
     padding: 22px 38px;
   }
-  .power img{
-    height: 300px;
-  }
-  .power-2 img{
-    height: 300px;
-  }
-  .quote-img{
-    width: 330px;
-  }
-  .joju{
-    width: 330px;
-  }
+  .quote-img, .joju{width: 330px;}
   .carts-container {
     width: 350px;
   }
@@ -1509,9 +1458,7 @@ input[type="radio"] {
   .top-trick-wraper a,.ref a, .business-wraper a{
     font-size: 12px;
   }
-  .ref{
-    width: 190px;
-  }
+  .ref{width: 190px;}
   .business-wraper {
     width: 190px;
     padding: 7px 0 0 20px;
@@ -1562,24 +1509,16 @@ input[type="radio"] {
   .power img {
     height: 239px;
   }
-  .power-1 img {
-    height: 242px;
-  }
-  .power-2 img {
-    height: 240px;
-  }
+  .power-1 img {height: 242px;}
+  .power-2 img {height: 240px;}
   .quote-img {
     width: 280px; height: 190px;
   }
-  .joju{
-    width: 280px;
-  }
+  .joju{width: 280px;}
   .cost p{
     padding-left: 52%; font-size: 14px;
   }
-  .power-4 img {
-    height: 225px;
-  }
+  .power-4 img {height: 225px;}
   .carts-container { width: 300px;}
   .carts-container-1{width: 300px;}
   .scating-1 img{ margin-left: 50px;}
@@ -1607,22 +1546,14 @@ input[type="radio"] {
     width: 200px;
     padding: 7 0 0 10px;
   }
-  .top-trick-wraper{
-    width: 115px;
-  }
+  .top-trick-wraper{width: 115px;}
   .top-trick-hover-content{
-    gap: 12px;
-    transform: none;
+    gap: 12px; transform: none;
   }
   .rev-text{
     text-align: center;
   }
-  .rev-text h1{
-    font-size: 31px;
-  }
-  .print-4 h1{
-    font-size: 31px;
-  }
+  .rev-text, .print-4 h1{font-size: 31px;}
   .casual h1{
     font-size: 33px;
   }
